@@ -16,14 +16,14 @@ public class ConsumerDemoRebalanceListener {
     public static void main(String[] args) {
         log.info("I am a Kafka Consumer with a Rebalance");
 
-        String bootstrapServers = "127.0.0.1:9092";
+        String bootstrapServers = "[::1]:9092";
         String groupId = "my-fifth-application";
         String topic = "demo_java";
 
         // create consumer configs
         Properties properties = new Properties();
-//        properties.setProperty(ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG, bootstrapServers);
-        properties.setProperty("bootstrap.servers", "[::1]:9092");
+        properties.setProperty(ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG, bootstrapServers);
+//        properties.setProperty("bootstrap.servers", "[::1]:9092");
         properties.setProperty(ConsumerConfig.KEY_DESERIALIZER_CLASS_CONFIG, StringDeserializer.class.getName());
         properties.setProperty(ConsumerConfig.VALUE_DESERIALIZER_CLASS_CONFIG, StringDeserializer.class.getName());
         properties.setProperty(ConsumerConfig.GROUP_ID_CONFIG, groupId);
