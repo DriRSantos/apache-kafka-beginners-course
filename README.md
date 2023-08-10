@@ -13,6 +13,29 @@ What was learned:
 - Overview of Advanced Kafka for Administrators
 - Advanced Topic Configurations
 
+## Screenshots
+
+### Create Topic CLI
+
+<img src="https://github.com/DriRSantos/apache-kafka-beginners-course/blob/main/images/Kafka-Topics-CLI-create.png?raw=true" width="450" height="248">
+
+### Kafka Console Consumer and Producer CLI
+
+<img src="https://github.com/DriRSantos/apache-kafka-beginners-course/blob/main/images/kafka-producer-producing-for-kafka-consumer.png?raw=true" width="450" height="248">
+
+### Kafka Consumer Group CLI
+
+<img src="https://github.com/DriRSantos/apache-kafka-beginners-course/blob/main/images/kafka-consumer-groups.png?raw=true" width="450" height="248">
+
+### IntelliJ Wikimedia Producer
+
+<img src="https://github.com/DriRSantos/apache-kafka-beginners-course/blob/main/images/WikimediaChangesProducer.png?raw=true" width="450" height="248">
+
+### Kafka OpenSearch GET Wikimedia
+
+<img src="https://github.com/DriRSantos/apache-kafka-beginners-course/blob/main/images/OpenSearch-GET-json-kafka-docker.png?raw=true" width="450" height="248">
+
+
 ![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-000?style=for-the-badge&logo=apachekafka)
 
 ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white)
